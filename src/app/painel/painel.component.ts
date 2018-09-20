@@ -67,7 +67,7 @@ export class PainelComponent implements OnInit {
  public atualizaRodada(): void{
    //Define a frase da rodada com base em alguma lógica
   this.rodadaFrase = this.frases[this.rodada];
-  console.log(this.frases);
+  //console.log(this.frases);
 
   //Limpar resposta
   this.resposta = '';
