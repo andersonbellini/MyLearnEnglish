@@ -11,6 +11,7 @@ export class TentativasComponent implements OnInit {
   public coracaoVazio: string ="/assets/coracao_vazio.png";
   public coracaoCheio: string ="/assets/coracao_cheio.png";
 
+  //Qtd de corações/tentativas erradas
   public coracoes: Coracao[] = [
     new Coracao(true), new Coracao(true), new Coracao(true)
   ]
