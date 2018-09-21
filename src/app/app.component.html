@@ -7,7 +7,8 @@
   <div *ngIf="tipoEncerramento==='Game Over', else fimDeJogoVitoria" class="container" style="margin-top: 58px;">
     <div class="row">
       <div class="col">
-        <h3 style="color: red;">Fim de Jogo! infelizmente você perdeu!</h3>
+        <h3 style="color: red;">Fim de Jogo! Infelizmente você perdeu!</h3>
+        <br>
         <button class="btn btn-primary" (click)="reiniciarJogo()">Jogar Novamente</button>
       </div>
     </div>
@@ -17,7 +18,8 @@
     <div class="container" style="margin-top: 58px;">
         <div class="row">
           <div class="col">
-            <h3 style="color: green;">Fim de Jogo!  Você ganhou !!!</h3>
+            <h3 style="color: green;">Fim de Jogo! Você ganhou !!!</h3>
+            <br>
             <button class="btn btn-primary" (click)="reiniciarJogo()">Jogar Novamente</button>
           </div>
         </div>
