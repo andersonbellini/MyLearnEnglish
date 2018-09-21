@@ -32,7 +32,7 @@ export class PainelComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy(): void {
-    console.log("Painel foi destruído.");
+    //console.log("Painel foi destruído.");
   }
 
   public atualizarResposta(resposta: Event): void
@@ -42,18 +42,18 @@ export class PainelComponent implements OnInit, OnDestroy {
   }
 
   public verificarResposta(): void {
-    console.log("Tentativas Ini: ",this.tentativas);
+    //console.log("Tentativas Ini: ",this.tentativas);
     if(this.rodadaFrase.frasePtBr == this.resposta){
       //alert('A tradução está correta!');
 
       //Troca pergunta da rodada
       this.rodada++;
-      console.log("Rodada: ", this.rodada);
-      console.log('Verificar resposta: ', this.resposta);
+      //console.log("Rodada: ", this.rodada);
+      //console.log('Verificar resposta: ', this.resposta);
 
       //progresso
       this.progresso = this.progresso + (100 / this.frases.length);
-      console.log("progresso: ", this.progresso);
+      //console.log("progresso: ", this.progresso);
 
       //
       if(this.rodada===4){
@@ -83,7 +83,7 @@ export class PainelComponent implements OnInit, OnDestroy {
       }
 
     }
-    console.log("Tentativas após: ",this.tentativas);
+    //console.log("Tentativas após: ",this.tentativas);
   }
 
  public atualizaRodada(): void{

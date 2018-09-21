@@ -18,8 +18,7 @@ export class TentativasComponent implements OnInit, OnChanges {
   ]
 
   constructor() {
-    console.log("Corações: ",this.coracoes);
-
+    //console.log("Corações: ",this.coracoes);
   }
 
   ngOnChanges(): void {
@@ -27,7 +26,7 @@ export class TentativasComponent implements OnInit, OnChanges {
     if(this.tentativas !== this.coracoes.length){
       this.coracoes[indice].cheio = false;
     }
-    console.log("Tentativas recebinas no painel: ",this.tentativas);
+   // console.log("Tentativas recebinas no painel: ",this.tentativas);
 
   }
 

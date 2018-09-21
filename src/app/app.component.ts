@@ -11,7 +11,7 @@ export class AppComponent {
   public tipoEncerramento: string;
 
   public encerrarApp(tipo: string): void{
-    console.log(tipo);
+    //console.log(tipo);
     this.jogoEmAndamento = false;
     this.tipoEncerramento = tipo;
   }
