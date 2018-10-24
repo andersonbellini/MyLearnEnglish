@@ -373,8 +373,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Coracao", function() { return Coracao; });
 var Coracao = /** @class */ (function () {
     function Coracao(cheio, urlCoracaoCheio, urlCoracaoVazio) {
-        if (urlCoracaoCheio === void 0) { urlCoracaoCheio = 'MyLearnEnglish/assets/coracao_cheio.png'; }
-        if (urlCoracaoVazio === void 0) { urlCoracaoVazio = 'MyLearnEnglish//assets/coracao_vazio.png'; }
+        if (urlCoracaoCheio === void 0) { urlCoracaoCheio = '/assets/coracao_cheio.png'; }
+        if (urlCoracaoVazio === void 0) { urlCoracaoVazio = '/assets/coracao_vazio.png'; }
         this.cheio = cheio;
         this.urlCoracaoCheio = urlCoracaoCheio;
         this.urlCoracaoVazio = urlCoracaoVazio;
